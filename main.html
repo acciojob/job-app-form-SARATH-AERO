@@ -16,13 +16,13 @@
     <script type="text/javascript" src="./script.js">
 </script>
 	<h2>Job App Form</h2>
-<form action="" method="get">
+<form action="" method="post">
    <label for="name">Name*</label>
-   <input type="text" name="name" id="#name" style="height: 25px;" required>
+   <input type="text" name="name" id="name" style="height: 25px;" required>
    <br>
    <br>
    <label for="email">Email*</label>
-   <input type="email" name="email" id="#email" style="height: 25px;" required>
+   <input type="email" name="email" id="email" style="height: 25px;" required>
    <br>
    <br>
    <label for="gender">Gender*</label>
@@ -30,7 +30,7 @@
    <input type="radio" value="female" id="male" name="gender" style="height: 25px;"> <label for="gender">Female</label>
    <br><br>
    <label for="laptop">Laptop</label>
-   <input list="laptop" name="laptop">
+   <input list="laptop" name="laptop" id="laptop">
    <datalist id="laptop" >
       <option value="Apple"></option>
       <option value="Asus"></option>
@@ -38,13 +38,13 @@
    </datalist>
    <br><br>
    <label for="age">Age*</label>
-   <input type="number" name="age" id="#age" style="height: 25px;" required>
+   <input type="number" name="age" id="age" style="height: 25px;" required>
    <br><br>
    <label for="dob">DOB*</label>
    <input type="date" id="dob" value="dob" style="height: 25px;" required>
    <br><br>
    <label for="password">Password*</label>
-   <input type="password" name="password" id="#password" style="height: 25px;" required>
+   <input type="password" name="password" id="password" style="height: 25px;" required>
    <br><br>
    <input type="submit" style="height: 40px;">
 </form>	
